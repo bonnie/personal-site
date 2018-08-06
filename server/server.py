@@ -11,7 +11,7 @@ def serve(path):
     if path != "" and os.path.exists("../client/dist/" + path):
         return send_from_directory('../client/dist', path)
     else:
-        return send_from_directory('../client', 'index.html')
+        return send_from_directory('../client/public', 'index.html')
 
 
 if __name__ == '__main__':
