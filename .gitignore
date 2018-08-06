@@ -106,3 +106,6 @@ venv.bak/
 # node / react
 node_modules
 dist
+
+# mac
+.DS_Store
